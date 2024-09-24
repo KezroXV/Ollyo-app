@@ -1,0 +1,25 @@
+.Team {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* Permet de passer à plusieurs lignes lorsque l'espace est insuffisant */
+}
+
+.Team-elt {
+  flex: 1 1 200px; /* Chaque élément occupe un minimum de 200px et s'étend */
+  max-width: 240px;
+  margin: 20px; /* Espacement autour des cartes */
+  text-align: center; /* Centrer le texte */
+}
+
+.Team img {
+  width: 100%; /* L'image occupe toute la largeur de son conteneur */
+  height: auto;
+}
+
+.Team h4 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 10px;
+}

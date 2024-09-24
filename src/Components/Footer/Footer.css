@@ -1,0 +1,233 @@
+footer {
+  width: 100%;
+  position: end;
+  background-color: #000000;
+  bottom: 0;
+  padding: 48px 80px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.col {
+  flex-basis: 20%; /* Ajuste la taille des colonnes pour les écrans moyens */
+  padding: 10px;
+  min-width: 144px;
+  box-sizing: border-box;
+}
+
+footer img {
+  width: 180px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.col h3 {
+  width: fit-content;
+  margin-bottom: 38px;
+  position: relative;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.email-id {
+  width: fit-content;
+  border-bottom: 1px solid #720BC1;
+  cursor: pointer;
+  margin: 17px 0 12px 0;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+footer ul {
+  width: 100%;
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  margin-bottom: 38px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+footer ul .li-pp {
+  display: flex;
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+footer ul li a:hover {
+  color: #a859e4;
+}
+
+form {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  width: 326px;
+  background-color: #720BC1;
+}
+
+form input {
+  width: 100%;
+  background: #fff;
+  color: #000000;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  border: 0;
+  height: 31px;
+  padding-left: 10px;
+}
+
+form button {
+  background-color: #fff;
+  height: 31px;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0;
+  border: 0;
+  outline: 4px solid #720BC1;
+  transition: 0.3s ease-in;
+}
+
+form button:hover {
+  background-color: #9560be;
+  color: #ffffff;
+}
+
+.social img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+div.end {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+p.copyright {
+  width: auto;
+  text-align: center;
+}
+
+div.end ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1024px) {
+  .col {
+    flex-basis: 45%; /* Chaque colonne occupe presque la moitié de la largeur */
+  }
+
+  form {
+    width: 100%; /* Le formulaire prend la largeur complète */
+  }
+
+  div.end {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div.end ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .row {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 24px 40px; /* Réduction des marges */
+  }
+
+  .col {
+    flex-basis: 100%; /* Chaque colonne prend toute la largeur */
+    text-align: center;
+  }
+
+  .col h3 {
+    font-size: 28px;
+  }
+
+  footer ul li {
+    font-size: 18px;
+  }
+
+  form {
+    width: 100%; /* Largeur complète sur les petits écrans */
+    margin: 20px 0;
+  }
+
+  div.end {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.end ul {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .social img {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 20px;
+  }
+
+  .col h3 {
+    font-size: 24px;
+  }
+
+  footer ul li {
+    font-size: 16px;
+  }
+
+  form {
+    width: 100%; /* Formulaire ajusté pour les très petits écrans */
+  }
+
+  div.end ul {
+    gap: 5px;
+  }
+
+  p.copyright {
+    font-size: 14px;
+  }
+}

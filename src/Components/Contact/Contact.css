@@ -1,0 +1,193 @@
+/* Main container */
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+}
+
+/* Left section for the form */
+.contact-left {
+  width: 50%;
+  max-width: 1000px;
+  padding-left: 10%;
+ 
+}
+.contact-left h1{
+  width: 500px;
+  text-align: left;
+}
+/* Message de confirmation */
+.success-message {
+  color: green;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Right section for image and contact info */
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  align-items: flex-start;
+}
+
+/* Contact Image */
+.contact-image {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* Contact box styling */
+.contact-box {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 500px;
+  width: 500px;
+  gap: 10px;
+  border: 2px solid #6235c1;
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+
+.contact-label {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.contact-text {
+  font-size: 20px;
+  color: #777777;
+  margin: 0;
+}
+
+/* Form styling */
+.form h4 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.form h1 {
+  font-size: 72px;
+  font-weight: 600;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.form label {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+}
+
+.form input[type="text"],
+.question-input.A {
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  border-radius: 10px;
+  border: 4px solid #720bc1;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #999999;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #9211f5;
+}
+
+.send {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn.big {
+  background-color: #6235c1;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.response-time {
+  font-size: 16px;
+  color: #777777;
+}
+
+/* Responsive Styles */
+
+/* For screen widths up to 768px, the left and right sections stack */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    width: 100%; /* Ensure full width usage */
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%; /* Each section takes up full width */
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0; /* Reset the right margin for stacking */
+  }
+  .contact-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .contact-box {
+    max-width: 100%;
+  }
+}
+
+/* Further adjustments for smaller screens */
+@media (max-width: 480px) {
+  .form h1 {
+    font-size: 48px;
+  }
+
+  .form h4 {
+    font-size: 24px;
+  }
+
+  .form input[type="text"],
+  .question-input.A {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .contact-label {
+    font-size: 20px;
+  }
+
+  .contact-text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,101 @@
+.faq-container {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #000;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border: 4px solid #720BC1;
+  border-radius: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  margin-top: 19px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 15px;
+  text-align: left;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.5s ease-out; /* Optionnel : effet visuel lors du survol */
+}
+
+.faq-question:hover {
+  background-color: #000000; /* Optionnel : couleur de survol */
+}
+.faq-answer {
+  background-color: #000000;
+  padding: 15px;
+  padding-top: 0;
+  border-radius: 0 0 10px 10px;
+  font-size: 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out; /* Animation pour l'expansion et la contraction */
+}
+p{
+  margin-top: 19px;
+}
+.faq-answer.show {
+  max-height: 500px; /* Ajuste en fonction du contenu, doit être plus grand que la hauteur du contenu */
+  padding-top: 15px; /* Pour conserver le padding lors de l'ouverture */
+}
+
+.faq-question img {
+  transition: transform 0.3s ease-out; /* Rotation fluide des flèches */
+}
+
+.faq-question.active img {
+  transform: rotate(360deg); /* Rotation lors de l'ouverture */
+}
+
+.contact-form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.send {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 24px;
+  margin-bottom: 15px;
+  
+}
+
+
+
+.response-time {
+  color: #999;
+  margin-top: 10px;
+  font-size: 22px;
+  text-align: left;
+}
+textarea{
+  width: 100%;
+  color: #fff;
+  background: #000000;
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}

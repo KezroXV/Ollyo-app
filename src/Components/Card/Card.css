@@ -1,0 +1,61 @@
+/* src/Cards.css */
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  border: 4px solid transparent; /* Bordure transparente */
+  background: linear-gradient(90deg, #720BC1, #D9A7FF); /* Applique le dégradé */
+  background-clip: border-box; /* Applique le dégradé sur toute la zone de la bordure */
+  padding: 0; /* Espace intérieur de l'élément */
+  border-radius: 10px; /* Optionnel : arrondir les bords */
+  position: relative;
+  z-index: 1;  
+  color: #fff;
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #720BC1;
+}
+.card img{
+  width: 60px;
+}
+.card h3 {
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.card p {
+  font-size: 24px;
+}
+
+.icon {
+  font-size: 30px; /* Adjust size to match the icon size */
+}
+@media(max-width: 1550px){
+  .card h3{
+    font-size: 20px;
+  }
+  .card p{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .container1 {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container1 {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+}

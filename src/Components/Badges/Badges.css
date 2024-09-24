@@ -1,0 +1,47 @@
+.badges-container {
+  display: flex;
+  flex-wrap: wrap; /* Permet d'afficher les éléments sur plusieurs lignes */
+  gap: 40px; /* Espacement entre les badges */
+  justify-content: center; /* Centrer les badges dans le conteneur */
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.badge {
+  background-color: hsla(274, 89%, 40%, 0.298);
+/* Couleur de fond violet foncé */
+  font-size: 36px;
+  font-weight: 300;
+  color: #fff; /* Texte en blanc */
+  padding: 10px 20px; /* Espacement interne */
+  border-radius: 10px; /* Coins arrondis */
+  display: inline-block; /* Pour que chaque badge soit inline */
+  text-align: center;
+  white-space: nowrap; /* Empêche le texte de passer à la ligne */
+  transition: background-color 0.3s ease;
+}
+
+.badge:hover {
+  background-color: hsl(274, 89%, 40%); /* Couleur de fond au survol */
+}
+/* Responsive design */
+@media (max-width: 1024px) {
+  .badge {
+    font-size: 30px; /* Réduit la taille de la police pour une tablette */
+  }
+}
+
+@media (max-width: 768px) {
+  .badge {
+    font-size: 24px; /* Réduit encore la taille de la police pour mobile */
+    padding: 8px 15px; /* Ajuste le padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .badge {
+    flex: 1 1 100%; /* Chaque badge occupe 100% de la largeur sur les mobiles */
+    font-size: 20px; /* Taille de police plus petite */
+    padding: 6px 10px; /* Ajuste encore le padding */
+  }
+}

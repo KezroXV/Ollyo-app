@@ -1,0 +1,146 @@
+.elementN {
+  border: 4px solid #720BC1;
+  background-clip: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  width: 100%;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.element-inner {
+  background-color: #000000;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ajout pour permettre une meilleure répartition sur petits écrans */
+}
+
+.element-inner img {
+  margin: 0 50px;
+  height: 120px;
+  width: auto;
+}
+.btn.dark-btn.link{
+  margin-top: 20px;
+  margin-left: 0;
+}
+.tbox {
+  text-align: center;
+  flex: 1; /* Pour s'adapter à l'espace disponible */
+  margin: 10px;
+}
+
+.tbox h1 {
+  margin-bottom: 28px;
+  font-size: 72px;
+}
+
+.desc{
+  font-size: 28px;
+  width: auto;
+  padding-top: 60px;
+}
+
+.hrr {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  margin: 40px 0;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1550px) {
+  .element-inner h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .element-inner {
+    padding: 20px; /* Réduction des espaces internes sur les écrans moyens */
+  }
+
+  .element-inner img {
+    margin: 0 30px; /* Réduction des marges autour des images */
+    height: 100px;  /* Réduction de la taille des images */
+  }
+
+  .tbox h1 {
+    font-size: 48px; /* Réduction de la taille des titres */
+  }
+
+  .tbox p {
+    font-size: 24px; /* Réduction de la taille des paragraphes */
+  }
+
+  .hrr {
+    margin: 0px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .element-inner {
+    flex-direction: column; /* Empile les éléments verticalement sur petits écrans */
+    padding: 20px;
+  }
+
+  .element-inner img {
+    margin: 20px 0; /* Centrer les images verticalement */
+    height: 4px;
+    width: 100%;
+  }
+
+  .tbox h1 {
+    font-size: 40px;
+  }
+
+  .tbox p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .element-inner {
+    padding: 10px;
+  }
+
+  .tbox h1 {
+    font-size: 32px;
+  }
+
+  .tbox p {
+    font-size: 16px;
+  }
+
+  .element-inner img {
+    height: 4px;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 310px) {
+  .element-inner {
+    padding: 10px;
+  }
+
+  .tbox h1 {
+    font-size: 32px;
+  }
+
+  .tbox p {
+    font-size: 16px;
+  }
+
+  .element-inner img {
+    height: 4px;
+    margin: 15px 0;
+  }
+}
