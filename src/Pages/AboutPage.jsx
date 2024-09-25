@@ -11,7 +11,7 @@ import Team from '../Components/Team/Team'
 
 const AboutPage = () => {
   return (
-    <div className='container'>
+    <div className=''>
       <Navbar></Navbar>
       <Title subTitle={"About Ollyo"}/>
       <AboutBox text={"We dream, design, develop, and dare to challenge the status quo and make a difference. We strive to develop a rich culture by expanding our horizons and bringing you ideas outside of the box."} img={img1}/>

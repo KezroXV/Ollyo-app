@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './Number.css'
-import line2 from '../../assets/line-2.png'
-import line3 from '../../assets/line-3.png'
+import line2 from '../../assets/Line-2.png'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 

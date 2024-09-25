@@ -5,7 +5,7 @@ import AOS from 'aos';
 
 const News = ({title, date,image,C1,C2,C3}) => {
   return (
-    <div className='news container' data-aos="fade-up">
+    <div className='newscontainer' data-aos="fade-up">
       <div className='news-box'>
         <img src={image} alt="" />
         <h1 className="title-news">{title}</h1>

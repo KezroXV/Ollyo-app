@@ -26,6 +26,10 @@ hr{
   }
 }
 @media (max-width:942px){
+  .aboutBox.container{
+    padding: 5%;
+    padding-top: 0;
+  }
   .box .p3 {
     font-size: 20px;
     font-weight: 200;
@@ -35,7 +39,7 @@ hr{
     width: 300px;
   }
 }
-@media (max-width:430px){
+@media (max-width:600px){
   .aboutBox{
     padding: 10%;
     
@@ -56,5 +60,6 @@ hr{
     width: 200px;
     display: flex;
     margin: auto;
+    margin-top: 20px;
   }
 }

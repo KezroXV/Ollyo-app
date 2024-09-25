@@ -63,3 +63,16 @@
     font-size: 20px;
   }
 }
+@media (max-width:425px){
+  .hero.container{
+    padding: 5%;
+    width: fit-content;
+  }
+}
+  .hero .brands{
+    
+  }
+  .hero .line{
+    width: 50px;
+  }
+}

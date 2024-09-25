@@ -37,7 +37,7 @@ const App = () => {
       </Link>
       <FAQComponent/>
       <hr />
-      <Footer className="container"/>
+      <Footer/>
     </div>
   );
 };

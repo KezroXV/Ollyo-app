@@ -6,9 +6,10 @@ import ui from '../../assets/Circles.png'
 import ai from '../../assets/squares.png'
 import project from '../../assets/syn.png'
 import marketing from '../../assets/Grown.png'
-import sales from '../../assets/Support.png'
+import support from '../../assets/support.png'
 import research from '../../assets/Heart.png'
 import security from '../../assets/tri.png'
+
 
 const Card = ({ title, description, imgSrc }) => (
   <div className="card">
@@ -57,7 +58,7 @@ const Cards = () => {
       <Card
         title="Supportive culture"
         description="Focusing on helping each other and our customers with a proactive and caring approach."
-        imgSrc={sales}
+        imgSrc={support}
       />
 
       <Card

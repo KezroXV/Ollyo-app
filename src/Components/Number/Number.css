@@ -125,6 +125,11 @@
     height: 4px;
     margin: 15px 0;
   }
+    .number.container{
+      padding: 5%;
+      margin: auto;
+      width: fit-content;
+    }
 }
 @media (max-width: 310px) {
   .element-inner {

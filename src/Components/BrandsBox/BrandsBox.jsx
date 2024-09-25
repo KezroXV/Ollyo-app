@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const BrandsBox = () => {
   return (
     <div className='BrandsBox container'  >
-      <div className="element" data-aos="fade-right">
+      <div className="element" >
         <div className="brandinfo">
          <div className="brand">
          <img className='brandLogo' src={logo1} alt="" />

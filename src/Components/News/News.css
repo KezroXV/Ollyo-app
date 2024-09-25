@@ -108,7 +108,8 @@
 }
 @media (max-width :500px){
   .news-box{
-    width: 250px;
+    width: fit-content;
+    margin: 20px;
   }
   .news-box h1{
     font-size: 26px;
