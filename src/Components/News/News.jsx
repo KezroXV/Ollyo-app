@@ -7,7 +7,7 @@ const News = ({title, date,image,C1,C2,C3}) => {
   return (
     <div className='newscontainer' data-aos="fade-up">
       <div className='news-box'>
-        <img src={image} alt="" />
+        <img src={image} alt="" className='news-image'/>
         <h1 className="title-news">{title}</h1>
         <p className="p4">{date}</p>
         {C1 && <p className=" green">{C1}</p>}

@@ -53,7 +53,7 @@ const BlogPage = () => {
     }
   ];
   return (
-    <div className='news'>
+    <div className='newscontainer'>
       <Navbar/>
       <Title subTitle={"Insights & Updates"} par={'Explore the latest insights and trends in technology and innovation on the Ollyo Blog. Stay informed and inspired.'}/>
     <div className='news'>
