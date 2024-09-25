@@ -1,10 +1,11 @@
-{"homepage":"http://KezroXV.github.io/Ollyo-app-react",
+{"homepage":"http://KezroXV.github.io/Ollyo-app",
   "name": "ollyo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "script":"npm run build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
