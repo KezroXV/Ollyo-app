@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div>   
       
-      <Navbar/>
+      
         <Hero />
         <Who />
       <Title subsubTitle='Numbers' />  
