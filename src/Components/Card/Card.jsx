@@ -6,7 +6,7 @@ import ui from '../../assets/ui.png'
 import ai from '../../assets/ai.png'
 import project from '../../assets/project.png'
 import marketing from '../../assets/marketing.png'
-import sales from '../../assets/sales.png'
+import sales from '../../assets/Sales.png'
 import research from '../../assets/Research.png'
 import security from '../../assets/security.png'
 import 'aos/dist/aos.css';
