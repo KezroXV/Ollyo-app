@@ -7,7 +7,7 @@ import AOS from 'aos';
 const Number = () => {
   return (
     
-    <div className="number container" data-aos="fade-right">
+    <div className="number " data-aos="fade-right">
       <div className='elementN'>
       <div className="element-inner">
       <div className="tbox">
