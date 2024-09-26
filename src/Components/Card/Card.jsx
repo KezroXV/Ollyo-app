@@ -8,7 +8,7 @@ import project from '../../assets/project.png'
 import marketing from '../../assets/marketing.png'
 import sales from '../../assets/Sales.png'
 import research from '../../assets/Research.png'
-import security from '../../assets/security.png'
+import security from '../../assets/Security.png'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
