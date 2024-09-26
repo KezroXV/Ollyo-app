@@ -94,6 +94,7 @@
 @media (max-width :650px){
   .news-box{
     width: 400px;
+    text-align: center;
   }
   .news-box h1{
     font-size: 26px;
