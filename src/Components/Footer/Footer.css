@@ -261,6 +261,7 @@ div.end ul {
 
   div.end ul {
     gap: 5px;
+    width: fit-content;
   }
 
   p.copyright {
