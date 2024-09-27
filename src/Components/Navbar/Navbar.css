@@ -41,7 +41,8 @@ nav ul li{
 @media (max-Width:840px){
   nav{
     padding: 15px 0;
-    position: absolute;
+    position: relative;
+    margin-bottom: 50px;
   }
   nav ul{
     position: fixed;
@@ -72,3 +73,5 @@ nav ul li{
 
   }
 }
+
+
