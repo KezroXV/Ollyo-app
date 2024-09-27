@@ -40,7 +40,7 @@ const Footer = () => {
           <li><Link to={"/Blog"}>Blog</Link></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col NL">
           <h3>Follow us</h3>
           <form action="">
             <input type="email" placeholder="Enter your E-mail" required/>
