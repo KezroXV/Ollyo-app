@@ -176,11 +176,22 @@ div.end ul {
     flex-basis: 100%; /* Chaque colonne prend toute la largeur */
     text-align: center;
   }
-
+  p.text4{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .col h3 {
     font-size: 28px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: fit-content;
   }
-
+  .col h4{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
   footer ul li {
     font-size: 18px;
   }
@@ -204,23 +215,48 @@ div.end ul {
   .social img {
     margin: 10px;
   }
+  p.email-id{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 @media (max-width: 480px) {
-  footer {
-    padding: 20px;
+  p.text4{
+    width: fit-content;
+    margin-left: 0;
+    margin-right: auto;
   }
-
+  footer.container{
+    padding: 5%;
+  }
+  .col{
+    width: fit-content;
+    text-align: left;
+    flex-basis: 100%;
+    padding: 10px 100px;
+  }
   .col h3 {
     font-size: 24px;
+    text-align: left;
+    margin: 20px 0;
+    margin-left: 0;
+    margin-right: auto;
   }
-
+  .col h4{
+    margin-left: 0;
+  }
   footer ul li {
     font-size: 16px;
+    width: fit-content;
+    margin-left: 0;
+    margin-right: auto;
   }
 
   form {
-    width: 100%; /* Formulaire ajusté pour les très petits écrans */
+    width: 100%;
+     /* Formulaire ajusté pour les très petits écrans */
   }
 
   div.end ul {
@@ -229,5 +265,13 @@ div.end ul {
 
   p.copyright {
     font-size: 14px;
+  }
+  .col.NL{
+    width: 100%;
+    padding: 0;
+  }
+  p.email-id{
+    margin-left: 0;
+    margin-right: auto;
   }
 }
