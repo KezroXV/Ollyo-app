@@ -51,6 +51,9 @@
   }
 }
 @media (max-width:1280px){
+  .brand{
+    justify-content: center;
+  }
   .BrandsBox h1{
     font-size: 28px;
   }
@@ -74,6 +77,7 @@
     font-weight: 200;
   }
   .brand{
+    margin-top: 20px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -86,6 +90,7 @@
   }
   .desc{
     margin-bottom: 20px;
+    padding-top: 0px;
   }
   .illu1{
     width: 350px;
